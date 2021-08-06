@@ -1,23 +1,21 @@
 import java.util.Scanner;
 
-public class Uri1067{
+public class Uri1070{
     public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
 
-        int numero;
-        int impar = 1;
+        int X;
+        X = teclado.nextInt();
 
-        numero = teclado.nextInt();
-        
-        //não sei seguir nesse rs
+        // esse é o pomto de partida
 
-        do (int cont=1 ; cont<=6 ; cont++){
-
+        if (X % 2 ==0){
+            X++;
         }
 
-        while (impar <= numero){
-            System.out.println(impar)
-            impar = impar + 2
+        for (int cont=1; cont<=6; cont++){
+            System.out.println(X);
+            X+=2;
 
         }
 

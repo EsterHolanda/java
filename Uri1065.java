@@ -7,8 +7,9 @@ public class Uri1065{
         int numero;
         int pares = 0;
         
+        //sei contar 5 vezes? sim!!
         for (int cont=1 ; cont <=5 ; cont++){
-            numero = teclado.nextInt();
+            numero = teclado.nextInt(); // leia o numero
             if (numero % 2 == 0){
             pares = pares + 1;
             }
